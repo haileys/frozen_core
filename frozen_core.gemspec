@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "frozen_core"
-  s.version = "1.0.0"
+  s.version = "1.1.0"
   s.author = "Charlie Somerville"
   s.email = "charlie@charliesomerville.com"
   s.summary = "Exposes RubyVM::FrozenCore"
