@@ -9,4 +9,8 @@ class TestFrozenCore < MiniTest::Unit::TestCase
   def test_frozen_core_has_internal_methods
     assert RubyVM::FrozenCore.method_defined?(:"core#define_method")
   end
+
+  def test_frozen_core_instance
+    assert RubyVM::FrozenCore.instance.respond_to?(:"core#define_method")
+  end
 end
