@@ -8,4 +8,5 @@ Gem::Specification.new do |s|
   s.license = "MIT"
   s.homepage = "https://github.com/charliesome/frozen_core"
   s.files = `git ls-files`.lines.map(&:chomp)
+  s.required_ruby_version = "< 2.1.0"
 end
